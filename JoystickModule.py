@@ -1,5 +1,10 @@
+'''
+The idea of this module is to obtain the values from a controller
+We use a PS4 controller connected via bluetooth
+The values are stored in a dictionary and show in realtime
+'''
 import pygame #Detect key strokes
-from time import sleep
+from time import sleep #Sleep is for the delays
 
 pygame.init() #Initialize pygame
 controller = pygame.joystick.Joystick(0) #Only one controller
