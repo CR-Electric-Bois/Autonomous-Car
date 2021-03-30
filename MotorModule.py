@@ -1,3 +1,13 @@
+'''
+The idea of the module is to use the motors from the car using a 
+L298N Motor Controller. This car has only 2 motors, one for steering and
+a second one for speed.
+The code only used the GPIO Pins
+The function receives the speed and turn for the motors
+Speed and turn are normalized from -1 to 1.
+Delay is in seconds
+'''
+
 import RPi.GPIO as GPIO #Import GPIO
 from time import sleep #Import Sleep
 
